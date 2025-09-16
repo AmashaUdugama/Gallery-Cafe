@@ -54,25 +54,10 @@ A modern cafe management system featuring a food gallery, online ordering and po
 
 ## 🤝 Contributing
 
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch:
-
-   ```bash
-   git checkout -b feature/new
-   ```
-3. 💾 Commit changes:
-
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. 📤 Push branch:
-
-   ```bash
-   git push origin feature/new
-   ```
+1. 💾 Commit changes.
+2. 📤 Push branch.
 5. 🔄 Submit a Pull Request.
 
----
 
 ⭐ If you find this project helpful, give it a **star**!
 ❤️ Built for **foodies and cafe owners**.
