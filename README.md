@@ -1,99 +1,144 @@
-☕ Gallery Cafe
-A modern cafe system featuring a food gallery, online ordering and management tools for an enhanced dining experience.
-✨ Features
 
-🖼️ Stunning Food Gallery: Visually appealing display of menu items with dynamic image loading.
-🛒 Online Ordering: Seamless cart functionality with real-time pricing updates.
-👥 Customer Management: Track customer details and order history.
-📋 Menu Management: Admins can easily update and manage menu items.
-🧾 Order Tracking & Billing: Real-time order tracking and invoice generation.
-📊 Sales Analytics: Insightful reports and sales data for business growth.
-🔐 Admin Login: Secure admin panel for managing operations.
-📱 Responsive Design: Optimized for both desktop and mobile devices.
+# ☕ Gallery Cafe  
 
-📋 Prerequisites
+A modern cafe management system featuring a food gallery, online ordering, and powerful admin tools for an enhanced dining experience.  
 
-🗄️ MySQL (via WAMP and phpMyAdmin for database management)
-🌐 Web Browser (Chrome)
-🔧 IDE (VS Code or any preferred IDE)
-🖥️ WAMP Server (for running PHP and MySQL)
+---
 
-🚀 Installation
-Backend Setup (Java)
+## ✨ Features  
 
-Clone the Repository:
-git clone https://github.com/AmashaUdugama/Gallery-Cafe.git
-cd Gallery-Cafe
+- 🖼️ **Stunning Food Gallery** – Dynamic, visually appealing display of menu items.  
+- 🛒 **Online Ordering** – Seamless cart functionality with real-time pricing updates.  
+- 👥 **Customer Management** – Track customer details and order history.  
+- 📋 **Menu Management** – Admins can easily update and manage menu items.  
+- 🧾 **Order Tracking & Billing** – Real-time order tracking and invoice generation.  
+- 📊 **Sales Analytics** – Insightful reports and sales data for business growth.  
+- 🔐 **Admin Login** – Secure admin panel for managing operations.  
+- 📱 **Responsive Design** – Optimized for desktop and mobile devices.  
 
+---
 
-Set Up MySQL Database:
+## 📋 Prerequisites  
 
-Start WAMP server and ensure phpMyAdmin is accessible.
-Create the database:CREATE DATABASE gallery_cafe;
+- 🗄️ **MySQL** (via WAMP & phpMyAdmin for database management)  
+- 🌐 **Web Browser** (Chrome recommended)  
+- 🔧 **IDE** (VS Code or any preferred IDE)  
+- 🖥️ **WAMP Server** (for running PHP and MySQL)  
 
+---
 
-Import the SQL file:SOURCE database/gallery_cafe.sql;
+## 🚀 Installation  
 
+### 🔹 Backend Setup (Java)  
 
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/AmashaUdugama/Gallery-Cafe.git
+   cd Gallery-Cafe
+````
 
+2. **Set Up MySQL Database**
 
-Configure Database Connection:
+   * Start **WAMP server** and ensure phpMyAdmin is accessible.
+   * Create the database:
 
-Update the database configuration in the Java code:String url = "jdbc:mysql://localhost:3306/gallery_cafe";
-String username = "root";
-String password = "";
+     ```sql
+     CREATE DATABASE gallery_cafe;
+     ```
+   * Import SQL file:
 
+     ```sql
+     SOURCE database/gallery_cafe.sql;
+     ```
 
+3. **Configure Database Connection**
+   Update database configuration in Java code:
 
-Run the Java Application:
-javac *.java
-java Main
+   ```java
+   String url = "jdbc:mysql://localhost:3306/gallery_cafe";
+   String username = "root";
+   String password = "";
+   ```
 
+4. **Run Java Application**
 
-Frontend Setup (PHP/HTML)
+   ```bash
+   javac *.java
+   java Main
+   ```
 
-Set Up WAMP Server:
+---
 
-Install WAMP and ensure it’s running.
-Place the project folder in the www directory of WAMP (C:\wamp64\www\Gallery-Cafe).
+### 🔹 Frontend Setup (PHP/HTML)
 
+1. **Set Up WAMP Server**
 
-Configure PHP and phpMyAdmin:
+   * Install **WAMP** and ensure it’s running.
+   * Place the project folder in:
 
-Access phpMyAdmin via http://localhost/phpmyadmin.
-Ensure the gallery_cafe database is set up as described above.
+     ```
+     C:\wamp64\www\Gallery-Cafe
+     ```
 
-Run the Website:
+2. **Configure PHP & phpMyAdmin**
 
-Open http://localhost/Gallery-Cafe in your browser.
+   * Access via: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+   * Ensure `gallery_cafe` database is set up as described above.
 
-🛠️ Tech Stack
+3. **Run the Website**
 
-Backend:  🗄️ MySQL, 🐘 PHP
-Frontend: 🌐 HTML5, 🎨 CSS3, 📜 JavaScript, 🎨 Bootstrap
-Framework: ⚡ PHP (for web)
-Database: 🗄️ MySQL (via phpMyAdmin)
-Server: 🖥️ WAMP Server
+   * Open in browser:
+     [http://localhost/Gallery-Cafe](http://localhost/Gallery-Cafe)
 
-📱 Modules
+---
 
-Customer Module: Browse menu, place orders, track orders, view order history.
-Admin Module: Manage menu, orders, customers, gallery and view analytics.
-Orders Module: Real-time order tracking and invoice generation.
+## 🛠️ Tech Stack
 
+* **Backend:** 🐘 PHP, 🗄️ MySQL
+* **Frontend:** 🌐 HTML5, 🎨 CSS3, 📜 JavaScript, 🎨 Bootstrap
+* **Framework:** ⚡ PHP (for web)
+* **Database:** 🗄️ MySQL (via phpMyAdmin)
+* **Server:** 🖥️ WAMP Server
 
-📊 Key Features
+---
 
-Gallery: Dynamic, responsive image display for menu items.
-Ordering: User-friendly cart system with real-time pricing.
-Analytics: Sales reports and business insights for admins.
+## 📱 Modules
 
-🤝 Contributing
+* **Customer Module:** Browse menu, place orders, track orders, view history.
+* **Admin Module:** Manage menu, orders, customers, gallery, and view analytics.
+* **Orders Module:** Real-time tracking and invoice generation.
 
-🍴 Fork the repository.
-🌿 Create a new branch: git checkout -b feature/new.
-💾 Commit your changes: git commit -m 'Add new feature'.
-📤 Push to the branch: git push origin feature/new.
-🔄 Submit a Pull Request.
+---
 
-⭐ Star the repo if you find it helpful! ❤️ Built for foodies and cafe owners!
+## 📊 Key Features
+
+* 🖼️ **Gallery** – Dynamic & responsive image display.
+* 🛒 **Ordering** – User-friendly cart with live pricing.
+* 📈 **Analytics** – Sales reports & insights for admins.
+
+---
+
+## 🤝 Contributing
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch:
+
+   ```bash
+   git checkout -b feature/new
+   ```
+3. 💾 Commit changes:
+
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. 📤 Push branch:
+
+   ```bash
+   git push origin feature/new
+   ```
+5. 🔄 Submit a Pull Request.
+
+---
+
+⭐ If you find this project helpful, give it a **star**!
+❤️ Built for **foodies and cafe owners**.
