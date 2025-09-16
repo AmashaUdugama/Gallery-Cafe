@@ -1,7 +1,7 @@
 
 # ☕ Gallery Cafe  
 
-A modern cafe management system featuring a food gallery, online ordering, and powerful admin tools for an enhanced dining experience.  
+A modern cafe management system featuring a food gallery, online ordering and powerful admin tools for an enhanced dining experience.  
 
 ---
 
@@ -105,7 +105,7 @@ A modern cafe management system featuring a food gallery, online ordering, and p
 ## 📱 Modules
 
 * **Customer Module:** Browse menu, place orders, track orders, view history.
-* **Admin Module:** Manage menu, orders, customers, gallery, and view analytics.
+* **Admin Module:** Manage menu, orders, customers, gallery and view analytics.
 * **Orders Module:** Real-time tracking and invoice generation.
 
 ---
