@@ -38,7 +38,7 @@ A modern cafe management system featuring a food gallery, online ordering and po
 ````
 
 2.Set Up MySQL Database
-
+ ```bash
     Start **WAMP server** and ensure phpMyAdmin is accessible.
     Create the database:
 
@@ -52,6 +52,7 @@ A modern cafe management system featuring a food gallery, online ordering and po
      ```
 
 3.Configure Database Connection
+ ```bash
    Update database configuration in Java code:
 
    ```java
