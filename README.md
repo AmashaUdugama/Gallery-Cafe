@@ -13,7 +13,7 @@ Modern cafe system with food gallery, online ordering and management tools.
 - 📱 Responsive design
 
 ## 📋 **Prerequisites**
-- ☕ Java JDK 8+ / Node.js
+- ☕ Java JDK 8+
 - 🗄️ MySQL
 - 🌐 Web Browser
 - 🔧 IDE (VS Code)
@@ -63,27 +63,18 @@ Modern cafe system with food gallery, online ordering and management tools.
    🌐 Visit `http://localhost:3000`
 
 ## 🛠️ **Tech Stack**
-- **Backend:** ☕ Java / Node.js, 🗄️ MySQL
+- **Backend:** ☕ Java, 🗄️ MySQL
 - **Frontend:** 🌐 HTML5, 🎨 CSS3, 📜 JavaScript
-- **Framework:** ⚡ Express.js / Java Swing
+- **Framework:** ⚡ / Java Swing
 - **Database:** 🗄️ MySQL
 
-## 🗄️ **Database Schema**
-- `menu_items`: 🆔 ID, 📛 Name, 📝 Description, 🗂️ Category, 💰 Price, 🖼️ Image, ✅ Availability
-- `orders`: 🆔 ID, 👤 Customer ID, 💵 Total, 📊 Status, 📅 Date
-- `customers`: 🆔 ID, 📛 Name, 📧 Email, 📞 Phone, 🏠 Address, 📅 Date
-
 ## 🖼️ **Gallery**
-- 🖼️ High-quality images
-- 🗂️ Category filters
-- 🔍 Search
-- 🔎 Image zoom
-- 📱 Responsive grid
+
 
 ## 📱 **Modules**
-- **Customer:** 🏠 Browse, 🛒 Order, 📍 Track, 📜 History
-- **Admin:** 👨‍💼 Menu/Order/Customer management, 📊 Analytics, 🖼️ Gallery
-- **Orders:** 🧾 Real-time tracking, 💳 Payments, 📄 Invoices
+- **Customer:**  Browse,  Order,  Track,  History
+- **Admin:**  Menu/Order/Customer management,  Analytics, 🖼 Gallery
+- **Orders:** Real-time tracking,  Invoices
 
 ## 🔧 **Configuration**
 - **DB Connection (Java):**
@@ -101,9 +92,9 @@ Modern cafe system with food gallery, online ordering and management tools.
   ```
 
 ## 📊 **Features**
-- **Gallery:** 🖼️ Dynamic images, 📱 Responsive
-- **Ordering:** 🛒 Cart, 💰 Real-time pricing
-- **Analytics:** 📈 Sales reports, 📊 Insights
+- **Gallery:**  Dynamic images, Responsive
+- **Ordering:**  Cart, Real-time pricing
+- **Analytics:** Sales reports, Insights
 
 ## 🤝 **Contributing**
 1. 🍴 Fork repo
