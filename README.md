@@ -37,21 +37,21 @@ A modern cafe management system featuring a food gallery, online ordering and po
    cd Gallery-Cafe
 ````
 
-2. **Set Up MySQL Database**
+2.Set Up MySQL Database
 
-   * Start **WAMP server** and ensure phpMyAdmin is accessible.
-   * Create the database:
+    Start **WAMP server** and ensure phpMyAdmin is accessible.
+    Create the database:
 
      ```sql
      CREATE DATABASE gallery_cafe;
      ```
-   * Import SQL file:
+    Import SQL file:
 
      ```sql
      SOURCE database/gallery_cafe.sql;
      ```
 
-3. **Configure Database Connection**
+3.Configure Database Connection
    Update database configuration in Java code:
 
    ```java
@@ -60,7 +60,7 @@ A modern cafe management system featuring a food gallery, online ordering and po
    String password = "";
    ```
 
-4. **Run Java Application**
+4. Run Java Application
 
    ```bash
    javac *.java
@@ -71,23 +71,23 @@ A modern cafe management system featuring a food gallery, online ordering and po
 
 ### 🔹 Frontend Setup (PHP/HTML)
 
-1. **Set Up WAMP Server**
+1. Set Up WAMP Server
 
-   * Install **WAMP** and ensure it’s running.
-   * Place the project folder in:
+    Install **WAMP** and ensure it’s running.
+    Place the project folder in:
 
      ```
      C:\wamp64\www\Gallery-Cafe
      ```
 
-2. **Configure PHP & phpMyAdmin**
+2. Configure PHP & phpMyAdmin
 
-   * Access via: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
-   * Ensure `gallery_cafe` database is set up as described above.
+   Access via: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+   Ensure `gallery_cafe` database is set up as described above.
 
-3. **Run the Website**
+3. Run the Website
 
-   * Open in browser:
+    Open in browser:
      [http://localhost/Gallery-Cafe](http://localhost/Gallery-Cafe)
 
 ---
