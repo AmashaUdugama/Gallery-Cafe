@@ -43,24 +43,6 @@ Modern cafe system with food gallery, online ordering and management tools.
    java Main
    ```
 
-### **Web App**
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Setup `.env`:
-   ```env
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=your_password
-   DB_NAME=gallery_cafe
-   PORT=3000
-   ```
-3. Start:
-   ```bash
-   npm start
-   ```
-   🌐 Visit `http://localhost:3000`
 
 ## 🛠️ **Tech Stack**
 - **Backend:** ☕ Java, 🗄️ MySQL
